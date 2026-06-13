@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: #050A18;
+  --color-foreground: #F8F6F0;
+  
+  --color-midnight: #030712;
+  --color-deep-blue: #050A18;
+  --color-royal-blue: #0A1931;
+  --color-gold: #C6A75E;
+  --color-gold-hover: #a3894b;
+  --color-silver: #E5E4E2;
+  --color-pearl: #FFFFFF;
+  --color-softgray: #71757A;
+  --color-dark-softgray: #9BA0A6;
+
+  --font-serif: var(--font-playfair);
+  --font-sans: var(--font-manrope);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom Animations */
+@keyframes slowZoom {
+  from { transform: scale(1); }
+  to { transform: scale(1.15); }
+}
+
+@keyframes shimmer {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+.animate-[shimmer_2s_infinite] {
+  animation: shimmer 2s infinite linear;
+}
+
+.animate-\[slowZoom_20s_infinite_alternate\] {
+  animation: slowZoom 20s infinite alternate ease-in-out;
+}

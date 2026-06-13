@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@theme inline {
+  /* ══════════════════════════════════════════════════════
+     PALETTE: British Racing Green × Ivory × Emerald
+     ( Bentley · Harrods · Aston Martin luxury aesthetic )
+     ══════════════════════════════════════════════════════ */
+
+  /* ── Dark base: pure black ── */
+  --color-onyx: #030403; /* Near Black */
+  --color-onyx-mid: #000000; /* Pure Black */
+  --color-onyx-soft: #080808; /* Charcoal Black */
+  --color-onyx-border: #1E7A48;
+
+  /* ── Primary accent: rich emerald ── */
+  --color-cognac: #1E7A48;
+  --color-cognac-light: #28A05F;
+  --color-cognac-dark: #145432;
+  --color-cognac-pale: #1E7A48;
+  --color-cognac-glow: rgba(30, 122, 72, 0.4);
+
+  /* ── Backgrounds: Strictly Black ── */
+  --color-ivory: #000000;
+  --color-ivory-warm: #000000;
+  --color-ivory-deep: #050505;
+  --color-pearl: #E2F2E9; /* Light Mint White */
+
+  /* ── Text / neutral tones: Adjusted for black and green ── */
+  --color-smoke: #8FA69B; /* Muted Light Grey-Green */
+  --color-ash: #668173;   /* Muted Green-Grey */
+  --color-charcoal-text: #E2F2E9; /* Light text */
+
+  /* Fonts */
+  --font-display: var(--font-cinzel);
+  --font-body: var(--font-raleway);
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--color-ivory);
+  color: var(--color-charcoal-text);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a, button {
+  transition-property: color, background-color, border-color, opacity, transform, box-shadow;
+  transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition-duration: 300ms;
+}
+
+::selection {
+  background: rgba(30, 122, 72, 0.2);
+  color: #1E7A48;
+}
+
+/* Premium scrollbar */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: #000000; }
+::-webkit-scrollbar-thumb { background: #1E7A48; border-radius: 2px; }
