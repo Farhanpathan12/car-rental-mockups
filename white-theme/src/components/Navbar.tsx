@@ -42,7 +42,7 @@ export default function Navbar() {
                 <div className="w-2 h-2 bg-gold rotate-45" />
               </div>
               <span className="font-playfair text-xl md:text-2xl font-bold text-pearl tracking-tight">
-                Spring-Ford <span className="text-gold italic font-medium">Luxury Rides.</span>
+                Wheels Four Rent
               </span>
             </a>
 
