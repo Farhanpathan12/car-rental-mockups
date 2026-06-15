@@ -1,37 +1,37 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Plane, Building2, Clock4, Star } from "lucide-react";
+import { Car, Sparkles, Film, Compass } from "lucide-react";
 import Image from "next/image";
 
 const services = [
   {
-    title: "Airport Transfers",
-    description: "Guaranteed punctual black-car service to JFK, LGA & Islip. Flight tracking included.",
-    icon: Plane,
-    image: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?q=80&w=1200&auto=format&fit=crop",
-    tag: "Most Popular",
+    title: "Self-Drive Luxury",
+    description: "Command elite supercars and SUVs. Enjoy complete driving freedom with zero artificial speed limits.",
+    icon: Car,
+    image: "/images/lamborghini_yellow.png",
+    tag: "Popular",
   },
   {
-    title: "Corporate Travel",
-    description: "Discreet, reliable transportation for C-suite executives and VIP clients worldwide.",
-    icon: Building2,
-    image: "https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=1200&auto=format&fit=crop",
-    tag: "Executive",
+    title: "Royal Weddings",
+    description: "Make an unforgettable wedding entry. Premium white luxury fleets with professional decor readiness.",
+    icon: Sparkles,
+    image: "/images/rolls_royce_white.png",
+    tag: "Royal Entry",
   },
   {
-    title: "As-Directed Hourly",
-    description: "Your personal chauffeur on standby for multi-stop itineraries and full-day bookings.",
-    icon: Clock4,
-    image: "https://images.unsplash.com/photo-1590845947698-8924d7409b56?q=80&w=1200&auto=format&fit=crop",
-    tag: "Flexible",
+    title: "Shoots & Media",
+    description: "Exotic cars for Tollywood movies, advertising shoots, music videos, and private campaigns.",
+    icon: Film,
+    image: "/images/g_wagon_black.png",
+    tag: "Shoots & Events",
   },
   {
-    title: "NYC Events & Galas",
-    description: "Arrive in cinematic style to weddings, galas, Broadway, and premium social events.",
-    icon: Star,
-    image: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=1200&auto=format&fit=crop",
-    tag: "Events",
+    title: "Outstation Drives",
+    description: "Hit the highway in absolute comfort. Luxurious SUVs for premium weekend getaways.",
+    icon: Compass,
+    image: "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?q=80&w=1200&auto=format&fit=crop",
+    tag: "Long Highway",
   },
 ];
 
@@ -50,7 +50,7 @@ export default function ServicesGrid() {
               transition={{ duration: 0.5 }}
               className="text-xs text-gold uppercase tracking-widest mb-4 font-semibold"
             >
-              Professional Services
+              Tailored Experiences
             </motion.p>
             <motion.h2
               initial={{ opacity: 0, y: 20 }}
@@ -59,12 +59,12 @@ export default function ServicesGrid() {
               transition={{ duration: 0.7 }}
               className="text-5xl lg:text-6xl font-playfair font-bold text-pearl leading-tight"
             >
-              Every Journey,<br />
-              <span className="italic text-gold">Perfected.</span>
+              Every Drive,<br />
+              <span className="italic text-gold">Redefined.</span>
             </motion.h2>
           </div>
-          <a href="#book" className="text-gold/70 text-sm font-medium hover:text-gold transition-colors flex items-center gap-2 whitespace-nowrap">
-            View All Services <span>→</span>
+          <a href="#fleet" className="text-gold/70 text-sm font-medium hover:text-gold transition-colors flex items-center gap-2 whitespace-nowrap">
+            Explore Fleet <span>→</span>
           </a>
         </div>
 

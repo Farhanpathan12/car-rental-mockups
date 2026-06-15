@@ -5,16 +5,16 @@ import { ChevronRight } from "lucide-react";
 
 const regions = [
   {
-    title: "Tri-State Area",
-    areas: ["New York City", "New Jersey", "Connecticut", "Long Island", "Westchester", "The Hamptons"],
+    title: "Prime Hotspots",
+    areas: ["Jubilee Hills", "Banjara Hills", "Gachibowli", "Madhapur", "Hitec City", "Financial District"],
   },
   {
-    title: "National Affiliates",
-    areas: ["Los Angeles", "Miami", "Chicago", "Las Vegas", "Washington D.C.", "Dallas"],
+    title: "Transit Hubs",
+    areas: ["RGIA Shamshabad Airport", "Secunderabad", "Begumpet Airport", "Shaikpet Flyover", "Nampally", "Begumpet"],
   },
   {
-    title: "Global Partners",
-    areas: ["London", "Paris", "Dubai", "Tokyo", "Milan", "Geneva"],
+    title: "Outstation Routes",
+    areas: ["Hyderabad to Vijayawada", "Hyderabad to Warangal", "Hyderabad to Bangalore", "Hyderabad to Vizag", "Hyderabad to Srisailam", "Hyderabad to Anantapur"],
   },
 ];
 
@@ -32,7 +32,7 @@ export default function ServiceAreasCTA() {
               transition={{ duration: 0.5 }}
               className="text-xs text-gold uppercase tracking-widest mb-4 font-semibold"
             >
-              Global Reach
+              Our Coverage
             </motion.p>
             <motion.h2
               initial={{ opacity: 0, y: 20 }}
@@ -41,8 +41,8 @@ export default function ServiceAreasCTA() {
               transition={{ duration: 0.7 }}
               className="text-5xl lg:text-6xl font-playfair font-bold text-foreground"
             >
-              Metropolitan<br />
-              <span className="italic text-gold">Network.</span>
+              Hyderabad &<br />
+              <span className="italic text-gold">Beyond.</span>
             </motion.h2>
           </div>
 
@@ -93,7 +93,7 @@ export default function ServiceAreasCTA() {
               <span className="italic text-gold">Arrangement.</span>
             </h2>
             <p className="text-silver/50 text-sm leading-relaxed max-w-sm">
-              Your journey begins with a single call — or a few simple clicks. Our reservations team is available around the clock.
+              Your booking starts with a single call or WhatsApp — simple, quick and direct. Our delivery team is active 24/7.
             </p>
           </motion.div>
         </div>
@@ -107,11 +107,11 @@ export default function ServiceAreasCTA() {
             transition={{ duration: 0.8, delay: 0.1 }}
           >
             <p className="text-foreground/50 text-sm mb-10 leading-relaxed max-w-sm">
-              Elevate every journey — from your first mile to your last. Experience the gold standard of luxury transportation on Long Island and beyond.
+              Experience the absolute pinnacle of self-drive luxury and royal entries. Wheels Four Rent brings elite motoring straight to Gachibowli, Jubilee Hills, and across Hyderabad.
             </p>
 
             <div className="space-y-4 mb-10">
-              {["Complimentary meet & greet", "Real-time chauffeur tracking", "Premium in-vehicle amenities", "Dedicated 24/7 concierge line"].map((feat) => (
+              {["Doorstep delivery & pickup", "Transparent pricing & quick KYC", "Immaculate showroom conditions", "24/7 dedicated support & helpline"].map((feat) => (
                 <div key={feat} className="flex items-center gap-3 text-sm text-foreground/70">
                   <div className="w-1.5 h-1.5 rounded-full bg-gold" />
                   {feat}
@@ -120,10 +120,10 @@ export default function ServiceAreasCTA() {
             </div>
 
             <a
-              href="#book"
+              href="tel:+918074761185"
               className="group inline-flex items-center gap-3 px-10 py-5 bg-gold text-midnight font-bold uppercase tracking-widest text-sm hover:bg-gold-hover transition-all duration-300 shadow-lg shadow-gold/20"
             >
-              Book Your Chauffeur
+              Reserve Your Supercar
               <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </a>
           </motion.div>

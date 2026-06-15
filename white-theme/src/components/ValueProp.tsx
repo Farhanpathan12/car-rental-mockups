@@ -6,26 +6,26 @@ import Image from "next/image";
 const cards = [
   {
     number: "01",
-    title: "Executive Travel",
-    subtitle: "Business Class. Redefined.",
-    desc: "Maximize productivity and minimize travel stress. A mobile office environment with absolute punctuality — because your time is priceless.",
-    items: ["High-speed complimentary WiFi", "Real-time flight tracking", "Strict confidentiality & privacy"],
-    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=2076&auto=format&fit=crop",
+    title: "Self-Drive Luxury",
+    subtitle: "Freedom on Your Own Terms.",
+    desc: "Experience the thrill of commanding elite supercars and high-end SUVs on your own. No driver constraints, complete cabin privacy, and pure performance at your fingertips.",
+    items: ["Fully verified documents & quick KYC", "Flexible daily, weekly, or monthly hires", "Doorstep vehicle delivery & pickup"],
+    image: "/images/g_wagon_black.png",
   },
   {
     number: "02",
-    title: "Chauffeur On-Demand",
-    subtitle: "Your Family, Our Priority.",
-    desc: "Begin your vacation the moment you leave home. Spacious, immaculate vehicles with premium amenities curated for every family member.",
-    items: ["Spacious SUVs for ample luggage", "Premium car seats available", "Stress-free airport navigation"],
-    image: "https://images.unsplash.com/photo-1511765224389-37f0e77cf0eb?q=80&w=2075&auto=format&fit=crop",
+    title: "Weddings & Shoots",
+    subtitle: "Exotic Cinema & Royal Entries.",
+    desc: "Elevate your special moments. From grand wedding entries in a white Rolls Royce to high-end pre-wedding shoots and Tollywood film productions.",
+    items: ["Immaculate showroom-condition vehicles", "Decor-ready coordination on-site", "Special shoot packages available"],
+    image: "/images/rolls_royce_white.png",
   },
 ];
 
 export default function ValueProp() {
   return (
     <section className="bg-background py-28 relative overflow-hidden">
-      <div className="absolute inset-0 opacity-[0.025] bg-[radial-gradient(circle_at_1px_1px,_#BEA365_1px,_transparent_0)] bg-[size:32px_32px]" />
+      <div className="absolute inset-0 opacity-[0.025] bg-[radial-gradient(circle_at_1px_1px,_#EAA315_1px,_transparent_0)] bg-[size:32px_32px]" />
 
       <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10">
 
@@ -38,7 +38,7 @@ export default function ValueProp() {
             transition={{ duration: 0.5 }}
             className="text-xs text-gold uppercase tracking-widest mb-4 font-semibold"
           >
-            Tailored Excellence
+            Exclusive Offerings
           </motion.p>
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
@@ -47,8 +47,8 @@ export default function ValueProp() {
             transition={{ duration: 0.7 }}
             className="text-5xl lg:text-6xl font-playfair font-bold text-foreground"
           >
-            The Family<br />
-            <span className="italic text-gold">Standard.</span>
+            Rent The<br />
+            <span className="italic text-gold">Premium Standard.</span>
           </motion.h2>
         </div>
 

@@ -24,8 +24,8 @@ export default function SpringFordDifference() {
             <div className="relative h-full w-full overflow-hidden shadow-2xl">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="https://images.unsplash.com/photo-1553440569-bcc63803a83d?q=80&w=1200&auto=format&fit=crop"
-                alt="Luxury black car chauffeur service"
+                src="/images/lamborghini_yellow.png"
+                alt="Luxury yellow Lamborghini sports car"
                 className="w-full h-full object-cover object-center hover:scale-105 transition-transform duration-700"
                 style={{ objectPosition: "center" }}
               />
@@ -41,8 +41,8 @@ export default function SpringFordDifference() {
               transition={{ duration: 0.6, delay: 0.5 }}
               className="absolute -bottom-8 -right-8 bg-white p-8 shadow-2xl z-20 border-b-2 border-gold"
             >
-              <p className="font-playfair text-6xl font-bold text-gold leading-none mb-1">20</p>
-              <p className="text-[10px] font-bold tracking-widest text-charcoal uppercase">Years of Service</p>
+              <p className="font-playfair text-6xl font-bold text-gold leading-none mb-1">50+</p>
+              <p className="text-[10px] font-bold tracking-widest text-charcoal uppercase">Luxury Cars</p>
             </motion.div>
           </motion.div>
 
@@ -53,15 +53,15 @@ export default function SpringFordDifference() {
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 1, ease: "easeOut", delay: 0.2 }}
           >
-            <p className="text-xs text-gold uppercase tracking-widest mb-6 font-semibold">Our Ethos</p>
+            <p className="text-xs text-gold uppercase tracking-widest mb-6 font-semibold">Unmatched Experience</p>
 
             <h2 className="text-5xl lg:text-6xl font-playfair font-bold text-foreground mb-8 leading-[1.05]">
-              The Art of<br />
-              <span className="italic text-gold font-medium">Arriving in Style.</span>
+              The Ultimate<br />
+              <span className="italic text-gold font-medium">Self-Drive Thrill.</span>
             </h2>
 
             <p className="text-softgray text-lg mb-14 leading-relaxed">
-              We understand that the journey is just as important as the destination. For over two decades, we have dedicated ourselves to perfecting the nuanced art of high-end transportation, ensuring every moment spent in our care is flawless.
+              Take the keys to Hyderabad&apos;s most exclusive supercars and high-end SUVs. Whether it&apos;s for a luxury wedding entry, high-profile shoot, or weekend escape, we deliver pristine performance on your own terms.
             </p>
 
             <div className="space-y-10">
@@ -71,10 +71,10 @@ export default function SpringFordDifference() {
                 </div>
                 <div>
                   <h4 className="text-lg font-playfair font-bold text-foreground mb-2 group-hover:text-gold transition-colors">
-                    Safety First, Always
+                    Showroom Quality Vehicles
                   </h4>
                   <p className="text-softgray text-sm leading-relaxed">
-                    Rigorous vehicle maintenance, background-checked chauffeurs, and comprehensive insurance — every single ride.
+                    Our luxury fleet undergoes rigorous mechanical maintenance and professional detailing before every single rental.
                   </p>
                 </div>
               </div>
@@ -87,10 +87,10 @@ export default function SpringFordDifference() {
                 </div>
                 <div>
                   <h4 className="text-lg font-playfair font-bold text-foreground mb-2 group-hover:text-gold transition-colors">
-                    97% Client Retention Rate
+                    100% Transparent Pricing
                   </h4>
                   <p className="text-softgray text-sm leading-relaxed">
-                    Our clients trust us repeatedly because we consistently meet — and exceed — the highest standards.
+                    Zero hidden charges, straightforward security deposits, and clean document processing for a hassle-free experience.
                   </p>
                 </div>
               </div>
@@ -98,10 +98,10 @@ export default function SpringFordDifference() {
 
             <div className="mt-12">
               <a
-                href="#book"
+                href="#fleet"
                 className="inline-flex items-center gap-3 text-sm font-bold text-gold uppercase tracking-widest hover:gap-5 transition-all duration-300"
               >
-                Learn Our Story <span>→</span>
+                Browse Our Fleet <span>→</span>
               </a>
             </div>
           </motion.div>

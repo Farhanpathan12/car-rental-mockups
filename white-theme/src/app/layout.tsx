@@ -13,8 +13,8 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "Spring-Ford Luxury Rides | Premium Chauffeur Service",
-  description: "The gold standard of luxury travel for business executives and discerning individuals.",
+  title: "Wheels Four Rent | Premium Luxury & Self-Drive Car Rental Hyderabad",
+  description: "Hyderabad's ultimate luxury car rental service. Self-drive G-Wagon, Lamborghini, Rolls-Royce, and premium fleets for weddings, shoots, and corporate entries.",
 };
 
 export default function RootLayout({

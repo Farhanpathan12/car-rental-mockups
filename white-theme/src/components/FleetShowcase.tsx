@@ -6,34 +6,34 @@ import Image from "next/image";
 
 const fleet = [
   {
-    id: "escalade",
-    name: "Cadillac Escalade ESV",
-    class: "Luxury Large SUV",
-    image: "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?q=80&w=1200&auto=format&fit=crop",
-    passengers: 6,
-    luggage: 6,
-    amenities: ["Premium WiFi", "Fiji Water", "Rear Screens", "Privacy Tint"],
-    tagline: "Command every arrival.",
+    id: "rolls-royce",
+    name: "Rolls-Royce Phantom Series II",
+    class: "Ultra-Luxury Limousine",
+    image: "/images/rolls_royce_white.png",
+    passengers: 4,
+    luggage: 4,
+    amenities: ["Royal Starlight Headliner", "Signature Coach Doors", "Custom Floral Decor Ready", "Rear Theater Screens"],
+    tagline: "The absolute pinnacle of wedding entries and state presence.",
   },
   {
-    id: "sclass",
-    name: "Mercedes-Benz S-Class",
-    class: "Executive Sedan",
-    image: "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?q=80&w=2070&auto=format&fit=crop",
-    passengers: 3,
-    luggage: 3,
-    amenities: ["Massage Seats", "Premium WiFi", "Fiji Water", "Ambient Lighting"],
-    tagline: "The standard of executive travel.",
+    id: "g-wagon",
+    name: "Mercedes-AMG G-63 AMG",
+    class: "High-Performance SUV",
+    image: "/images/g_wagon_black.png",
+    passengers: 5,
+    luggage: 5,
+    amenities: ["V8 BiTurbo Engine", "Satin Matte Black Finish", "Premium Exhaust Valve", "Burmester Sound System"],
+    tagline: "Command ultimate presence and raw authority on the street.",
   },
   {
-    id: "suburban",
-    name: "Chevrolet Suburban LTZ",
-    class: "Premium Family SUV",
-    image: "https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?q=80&w=1200&auto=format&fit=crop",
-    passengers: 7,
-    luggage: 8,
-    amenities: ["Spacious Cabin", "WiFi Available", "Bottled Water", "USB Charging"],
-    tagline: "Space, comfort, and family first.",
+    id: "lamborghini",
+    name: "Lamborghini Huracan LP 610-4",
+    class: "Exotic V10 Supercar",
+    image: "/images/lamborghini_yellow.png",
+    passengers: 2,
+    luggage: 1,
+    amenities: ["Naturally Aspirated V10", "Zero Speed Governor", "Corsa Performance Exhaust", "Carbon Fiber Trim"],
+    tagline: "Turn heads instantly. Feel the racing adrenaline of an absolute beast.",
   },
 ];
 
@@ -52,7 +52,7 @@ export default function FleetShowcase() {
               transition={{ duration: 0.5 }}
               className="text-xs text-gold uppercase tracking-widest mb-4 font-semibold"
             >
-              Embrace the Journey
+              Experience The Pinnacle
             </motion.p>
             <motion.h2
               initial={{ opacity: 0, y: 20 }}
@@ -62,11 +62,11 @@ export default function FleetShowcase() {
               className="text-5xl lg:text-6xl font-playfair font-bold text-foreground"
             >
               The Finest<br />
-              <span className="italic text-gold">Fleet on Long Island.</span>
+              <span className="italic text-gold">Fleet in Hyderabad.</span>
             </motion.h2>
           </div>
           <p className="text-softgray max-w-xs text-sm leading-relaxed">
-            Each vehicle is meticulously maintained, professionally detailed, and stocked with premium amenities before every journey.
+            Every machine in our garage is hand-polished, mechanically verified, and prepared to deliver pure motoring perfection.
           </p>
         </div>
       </div>

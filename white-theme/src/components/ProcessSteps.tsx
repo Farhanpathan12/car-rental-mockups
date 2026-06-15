@@ -1,32 +1,32 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ClipboardList, Car, MapPin, Smile } from "lucide-react";
+import { ClipboardList, UserCheck, CreditCard, Car } from "lucide-react";
 
 const steps = [
   {
     number: "01",
     icon: ClipboardList,
-    title: "Reserve Your Ride",
-    desc: "Book online or via phone in under 2 minutes. We'll confirm immediately.",
+    title: "Select Your Ride",
+    desc: "Browse our fleet online and check availability via a quick call or WhatsApp.",
   },
   {
     number: "02",
-    icon: Car,
-    title: "We Prepare",
-    desc: "Your vehicle is detailed, pre-cooled or heated, and your chauffeur is briefed.",
+    icon: UserCheck,
+    title: "Upload KYC Info",
+    desc: "Submit a copy of your valid driving license and basic ID for instant clearance.",
   },
   {
     number: "03",
-    icon: MapPin,
-    title: "Chauffeur Arrives",
-    desc: "Your dedicated chauffeur arrives 10 minutes early — every single time.",
+    icon: CreditCard,
+    title: "Secure Deposit",
+    desc: "Pay a fully refundable security deposit online or upon doorstep delivery.",
   },
   {
     number: "04",
-    icon: Smile,
-    title: "Enjoy the Ride",
-    desc: "Relax in pure luxury. WiFi, water, and silence — on your terms.",
+    icon: Car,
+    title: "Ignite & Escape",
+    desc: "Receive the keys, inspect your immaculate machine, and hit the open road.",
   },
 ];
 

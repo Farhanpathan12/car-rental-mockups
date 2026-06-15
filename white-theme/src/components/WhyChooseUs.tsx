@@ -6,33 +6,33 @@ import { ShieldCheck, Navigation, Clock, Radio, Lock, Users } from "lucide-react
 const whyItems = [
   {
     icon: ShieldCheck,
-    title: "Safety Certified",
-    desc: "Fully insured chauffeurs with rigorous background verification.",
+    title: "Zero Speed Governors",
+    desc: "Experience the true power of luxury supercars without artificial limiters.",
   },
   {
     icon: Navigation,
-    title: "Real-Time Routing",
-    desc: "Dynamic traffic intelligence ensures the fastest route, always.",
+    title: "Unlimited Kilometers",
+    desc: "Drive as far as your heart desires. No strict daily limits on mileage.",
   },
   {
     icon: Clock,
-    title: "Flight Monitoring",
-    desc: "We track every flight so you're never waiting, even with delays.",
+    title: "24/7 Doorstep Delivery",
+    desc: "We bring the car directly to your home, office, hotel, or airport in Hyderabad.",
   },
   {
     icon: Radio,
-    title: "24/7 Dispatch",
-    desc: "Live support around the clock—because luxury never sleeps.",
+    title: "Instant Verification",
+    desc: "Quick, hassle-free document review for rapid delivery.",
   },
   {
     icon: Lock,
-    title: "Full Confidentiality",
-    desc: "Absolute discretion for executives and high-profile clients.",
+    title: "Tollywood & Shoot Ready",
+    desc: "Tailored hourly booking options for movie shoots and media events.",
   },
   {
     icon: Users,
-    title: "Family-Operated",
-    desc: "Personal care and accountability not found in corporate chains.",
+    title: "Royal Wedding Experts",
+    desc: "Flawless coordination for high-end entries, bidai, and floral decorations.",
   },
 ];
 
@@ -54,13 +54,13 @@ export default function WhyChooseUs() {
             transition={{ duration: 0.9, ease: "easeOut" }}
             className="relative z-10"
           >
-            <p className="text-xs text-gold uppercase tracking-widest mb-6 font-semibold">The Spring-Ford Advantage</p>
+            <p className="text-xs text-gold uppercase tracking-widest mb-6 font-semibold">The Wheels Four Rent Edge</p>
             <h2 className="text-5xl lg:text-7xl font-playfair font-bold text-pearl leading-[0.95] mb-8">
-              First.<br />
-              <span className="italic text-gold">Always.</span>
+              Elite.<br />
+              <span className="italic text-gold">Unleashed.</span>
             </h2>
             <p className="text-silver/60 text-lg leading-relaxed max-w-sm">
-              When punctuality is non-negotiable, when comfort is non-compromise, and when experience truly matters — there is only one choice.
+              When driving is a personal statement, when luxury is non-negotiable, and when only the absolute finest vehicle will do — there is only one choice.
             </p>
             <div className="mt-10 w-16 h-px bg-gold" />
           </motion.div>

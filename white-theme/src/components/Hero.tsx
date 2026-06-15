@@ -27,58 +27,58 @@ export default function Hero() {
                 {/* Tag line */}
                 <div className="flex items-center gap-4 mb-10">
                   <div className="w-12 h-[2px] bg-gradient-to-r from-gold to-transparent" />
-                  <span className="text-sm text-gold uppercase tracking-[0.3em] font-semibold">Long Island&apos;s Premier Chauffeur</span>
+                  <span className="text-sm text-gold uppercase tracking-[0.3em] font-semibold">Hyderabad&apos;s Ultimate Luxury Fleet</span>
                 </div>
 
                 {/* Heading */}
                 <h1 className="text-7xl md:text-8xl xl:text-[7rem] font-playfair font-bold text-pearl leading-[0.95] tracking-tight mb-8">
-                  The <br />
-                  Science <br />
-                  <span className="italic font-normal text-transparent bg-clip-text bg-gradient-to-r from-gold via-[#e6c981] to-[#a38036]">
-                    of Service.
+                  Drive <br />
+                  The Luxury <br />
+                  <span className="italic font-normal text-transparent bg-clip-text bg-gradient-to-r from-gold via-[#ffd36e] to-[#c78f14]">
+                    You Deserve.
                   </span>
                 </h1>
 
                 <p className="text-silver/80 text-xl leading-relaxed max-w-lg mb-12 font-light">
-                  Long Island&apos;s most trusted chauffeur service. Built on two decades of uncompromised excellence, absolute discretion, and flawless punctuality.
+                  Rent premium supercars, high-end SUVs, and royal wedding fleets. Unleash the thrill of self-drive freedom or opt for professional VIP chauffeured entry.
                 </p>
 
                 {/* CTAs */}
                 <div className="flex flex-col sm:flex-row gap-5 mb-16">
                   <a
-                    href="#book"
-                    className="group relative overflow-hidden flex items-center justify-center gap-3 px-10 py-5 bg-gold text-midnight font-bold uppercase tracking-widest text-sm transition-all duration-500 shadow-[0_0_40px_-10px_rgba(190,163,101,0.4)] hover:shadow-[0_0_60px_-15px_rgba(190,163,101,0.6)] hover:-translate-y-1"
+                    href="#fleet"
+                    className="group relative overflow-hidden flex items-center justify-center gap-3 px-10 py-5 bg-gold text-midnight font-bold uppercase tracking-widest text-sm transition-all duration-500 shadow-[0_0_40px_-10px_rgba(234,163,21,0.4)] hover:shadow-[0_0_60px_-15px_rgba(234,163,21,0.6)] hover:-translate-y-1"
                   >
                     <span className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent -translate-x-full group-hover:animate-[shimmer_1.5s_infinite]" />
-                    <span className="relative z-10">Reserve Your Ride</span>
+                    <span className="relative z-10">Explore Our Fleet</span>
                     <ChevronRight className="w-4 h-4 relative z-10 group-hover:translate-x-1 transition-transform" />
                   </a>
                   <a
-                    href="tel:+18005550199"
+                    href="tel:+918074761185"
                     className="flex items-center justify-center gap-3 px-10 py-5 border border-white/10 text-pearl font-medium hover:border-gold/50 hover:bg-white/5 transition-all duration-300 backdrop-blur-md"
                   >
                     <Phone className="w-4 h-4 text-gold" />
-                    <span className="tracking-wide">Call Directly</span>
+                    <span className="tracking-wide">Call Wheels Four Rent</span>
                   </a>
                 </div>
 
                 {/* Inline stats - Redesigned */}
                 <div className="flex items-center gap-8 md:gap-12 pt-8 border-t border-white/10">
                   <div>
-                    <p className="text-4xl font-playfair font-bold text-white mb-1">20<span className="text-gold text-2xl">+</span></p>
-                    <p className="text-[10px] text-silver/60 uppercase tracking-[0.2em] font-semibold">Years Active</p>
+                    <p className="text-4xl font-playfair font-bold text-white mb-1">50<span className="text-gold text-2xl">+</span></p>
+                    <p className="text-[10px] text-silver/60 uppercase tracking-[0.2em] font-semibold">Premium Cars</p>
                   </div>
                   <div className="w-px h-12 bg-white/10" />
                   <div>
                     <div className="flex gap-1 mb-2">
                       {[...Array(5)].map((_, i) => <Star key={i} className="w-3.5 h-3.5 fill-gold text-gold" />)}
                     </div>
-                    <p className="text-[10px] text-silver/60 uppercase tracking-[0.2em] font-semibold">450+ 5-Star Reviews</p>
+                    <p className="text-[10px] text-silver/60 uppercase tracking-[0.2em] font-semibold">1,000+ Happy Clients</p>
                   </div>
                   <div className="w-px h-12 bg-white/10" />
                   <div>
-                    <p className="text-4xl font-playfair font-bold text-white mb-1">100<span className="text-gold text-2xl">%</span></p>
-                    <p className="text-[10px] text-silver/60 uppercase tracking-[0.2em] font-semibold">On-Time Record</p>
+                    <p className="text-4xl font-playfair font-bold text-white mb-1">24<span className="text-gold text-2xl">/7</span></p>
+                    <p className="text-[10px] text-silver/60 uppercase tracking-[0.2em] font-semibold">VIP Support</p>
                   </div>
                 </div>
               </motion.div>
@@ -99,8 +99,8 @@ export default function Hero() {
                 {/* Main image container */}
                 <div className="relative w-full h-full shadow-[0_20px_50px_-15px_rgba(0,0,0,0.7)] z-10 overflow-hidden group">
                   <img
-                    src="https://images.unsplash.com/photo-1563720223185-11003d516935?q=80&w=1200&auto=format&fit=crop"
-                    alt="Luxury Executive SUV"
+                    src="/images/rolls_royce_white.png"
+                    alt="Luxury Rolls Royce Phantom"
                     className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-[2s] ease-out"
                   />
                   
@@ -119,8 +119,8 @@ export default function Hero() {
                   <div className="flex items-center gap-4">
                     <div className="w-[2px] h-12 bg-gold" />
                     <div>
-                      <p className="text-xs text-silver/50 tracking-[0.2em] font-semibold mb-1 uppercase">Excellence</p>
-                      <p className="text-2xl font-playfair font-bold text-white tracking-wide">Since 2004.</p>
+                      <p className="text-xs text-silver/50 tracking-[0.2em] font-semibold mb-1 uppercase">Exotic Rentals</p>
+                      <p className="text-2xl font-playfair font-bold text-white tracking-wide">Self Drive & Events.</p>
                     </div>
                   </div>
                 </motion.div>

@@ -42,7 +42,7 @@ export default function Navbar() {
                 <div className="w-2 h-2 bg-gold rotate-45" />
               </div>
               <span className="font-playfair text-xl md:text-2xl font-bold text-pearl tracking-tight">
-                Wheels Four Rent
+                Wheels Four <span className="text-gold italic font-medium">Rent.</span>
               </span>
             </a>
 
@@ -61,19 +61,19 @@ export default function Navbar() {
             </div>
 
             {/* Desktop CTA */}
-            <div className="hidden lg:flex items-center gap-4 shrink-0">
+            <div className="hidden lg:flex items-center gap-6 shrink-0">
               <a
-                href="tel:+18005550199"
+                href="tel:+918074761185"
                 className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-silver/60 hover:text-gold transition-colors"
               >
-                <Phone className="w-4 h-4" />
-                <span>1-800-555-0199</span>
+                <Phone className="w-4 h-4 text-gold" />
+                <span>+91 80747 61185</span>
               </a>
               <a
                 href="#book"
-                className="px-6 py-2.5 bg-gold text-midnight text-xs font-bold uppercase tracking-[0.2em] hover:bg-gold-hover transition-colors shadow-[0_0_20px_-5px_rgba(190,163,101,0.4)]"
+                className="px-6 py-2.5 bg-gold text-midnight text-xs font-bold uppercase tracking-[0.2em] hover:bg-gold-hover transition-colors shadow-[0_0_20px_-5px_rgba(234,163,21,0.4)]"
               >
-                Book Now
+                Rent Now
               </a>
             </div>
 
@@ -116,7 +116,7 @@ export default function Navbar() {
               className="mt-4 px-8 py-4 bg-gold text-midnight font-bold uppercase tracking-widest text-sm"
               onClick={() => setMobileOpen(false)}
             >
-              Book Now
+              Rent Now
             </a>
           </motion.div>
         )}

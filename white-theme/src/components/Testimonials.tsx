@@ -5,28 +5,28 @@ import { Star, Quote } from "lucide-react";
 
 const testimonials = [
   {
-    quote: "The only service I trust for my weekly flights to London. Punctual to the minute, remarkably discreet, and the WiFi is always flawless.",
-    author: "Jonathan Pierce",
-    role: "CEO, Global Equities",
-    location: "Great Neck, NY",
+    quote: "We rented the matte black G-Wagon for our commercial video shoot near Gachibowli. The vehicle was delivered camera-ready, spotless, and precisely on schedule. The best exotic hire in Hyderabad.",
+    author: "Karan Verma",
+    role: "Director of Photography",
+    location: "Jubilee Hills, HYD",
     rating: 5,
-    highlight: "Punctual to the minute.",
+    highlight: "Camera-ready and on schedule.",
   },
   {
-    quote: "Traveling with three young children is usually a nightmare. Spring-Ford provided two pristine car seats and a driver who made the entire process incredibly smooth.",
-    author: "Sarah Montgomery",
-    role: "North Shore Resident",
-    location: "Manhasset, NY",
+    quote: "We hired the white Rolls-Royce Phantom for my daughter's royal wedding entry. The floral arrangement was spectacular and the vehicle's pristine shape made a stunning impression.",
+    author: "Dr. Rao Bahadur",
+    role: "Managing Director",
+    location: "Banjara Hills, HYD",
     rating: 5,
-    highlight: "Smooth from start to finish.",
+    highlight: "Stunning royal entry.",
   },
   {
-    quote: "Exceptional from start to finish. The vehicle was immaculate, the chauffeur was professional, and their knowledge of avoiding traffic was impressive.",
-    author: "David Chen",
-    role: "Managing Partner",
-    location: "Manhattan, NY",
+    quote: "Self-driving the Lamborghini Huracan along the Outer Ring Road was an unforgettable experience. Smooth document clearing, friendly team, and zero speed governor restrictions.",
+    author: "Sanjay Reddy",
+    role: "Tech Co-Founder",
+    location: "Gachibowli, HYD",
     rating: 5,
-    highlight: "Truly exceptional service.",
+    highlight: "Pure performance thrill.",
   },
 ];
 
@@ -34,7 +34,7 @@ export default function Testimonials() {
   return (
     <section id="testimonials" className="bg-background py-28 relative overflow-hidden">
       {/* Faint gold dots bg */}
-      <div className="absolute inset-0 opacity-[0.02] bg-[radial-gradient(circle_at_1px_1px,_#BEA365_1px,_transparent_0)] bg-[size:36px_36px]" />
+      <div className="absolute inset-0 opacity-[0.02] bg-[radial-gradient(circle_at_1px_1px,_#EAA315_1px,_transparent_0)] bg-[size:36px_36px]" />
 
       <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10">
 
@@ -65,7 +65,7 @@ export default function Testimonials() {
             <div className="flex gap-1">
               {[...Array(5)].map((_, i) => <Star key={i} className="w-4 h-4 fill-gold text-gold" />)}
             </div>
-            <span>4.98 / 5.0 average across 450+ reviews</span>
+            <span>4.98 / 5.0 average across 1,000+ premium rentals</span>
           </div>
         </div>
 
